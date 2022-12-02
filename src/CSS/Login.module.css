@@ -1,0 +1,20 @@
+
+.Login {
+    text-align: center;
+    background-color: #101010;
+}
+
+.Login_header {
+    background-color: #101010;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    animation-name: slide_in;
+    animation-fill-mode: forwards;
+    animation-iteration-count: initial;
+    animation-duration: 2s;
+}
